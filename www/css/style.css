@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.article-wrap {
+  margin: 10px;
+  flex-grow: 1;
+}
+.article-title {
+  width: 100%;
+  text-align: center;
+}
+#title-block {
+  width: 100%;
+  background-color: #e3d5ca;
+  padding: 5px;
+}
+.title {
+  color: #443b36;
+  margin-left: 100px;
+}
+nav ul li {
+  display: inline;
+  margin: 5px 15px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  font-weight: bold;
+}
+#profile {
+  margin: 10px;
+  padding: 5px;
+  width: 780px;
+  text-align: center;
+  height: fit-content;
+}
+.card {
+  border: 1px solid rgba(125, 125, 125, 0.457);
+  border-radius: 5px;
+}
+.article {
+  flex-grow: 1;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  background-color: #edede9;
+}
+footer {
+  background-color: #d5bdaf;
+  height: 50px;
+  text-align: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.article-img {
+  width: 50%;
+  margin: 10px 10px 10px 10px;
+}
+.foto-profil {
+  width: 50%;
+  border: 10px solid #edede9;
+}
+hr {
+  height: 3px;
+  color: #443b36;
+  background-color: #443b36;
+  margin: 10px 0px;
+}
+#nav-dropdown-btn {
+  display: none;
+}
+#nav-dropdown-container {
+  display: flex;
+  background-color: #d6ccc2;
+}
+
+main {
+  flex-direction: column;
+}
+.article-img {
+  width: 50%;
+  align-self: center;
+}
+#profile {
+  margin: 10px 10px;
+  width: 40%;
+  align-self: center;
+}
+.title {
+  margin-left: 20px;
+}
+#nav-dropdown-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d6ccc2;
+}
+#nav-dropdown-container {
+  display: none;
+  flex-direction: column;
+  background-color: #d6ccc289;
+}
+
+.half{
+  width: 50%;
+}
+
+p{
+  padding: 10px;
+}
+
+.vertical {
+  border-left: 5px solid black;
+  height: 200px;
+}
+
+.hobiimg{
+  max-width: 100px;
+}
+
+.hobiitem{
+  flex-grow: 1;
+  align-items: center;
+  padding: 10px;
+}
